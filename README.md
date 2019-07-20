@@ -43,3 +43,5 @@ Use following code to check the percentage that students would take again:
 ```
 aapi.getWouldTakeAgain()   #string
 ```
+
+When result is not found, methods will return `INFO_NOT_AVAILABLE`, in that case, you can customize the msg that you want to return in the package.
