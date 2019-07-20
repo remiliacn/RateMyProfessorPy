@@ -1,7 +1,7 @@
 # RateMyProfessorPy
 
 
-*RateMyProfessor API for py(no auth required)
+*RateMyProfessor API for py(no auth required)*
 
 * [2019/07/20] - Added a function to allow users to specify ```schoolId```, if ```schoolId``` is not specified, ASU will be the default school for the search result.
 * [2019/07/19] - Added a function to get tags of a specific professor from RMP
