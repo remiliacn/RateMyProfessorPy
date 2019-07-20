@@ -24,8 +24,8 @@ aapi = RMPClass.RateMyProfAPI(schoolId="xxx", teacher="xxx")
 aapi.retrieveRMPInfo()
 ```
 
-* `schoolId`, string type. Can be found when searching on the RMP wesbite. I will consider to add a function to get the `schoolId` in the future, a sample input will be `schoolId="45"`
-* `teacher`, string type. Must be the full name! A sample input will be: `teacher="Yinong Chen"`
+* `schoolId`, string type, **optional, but recommended**. Can be found when searching on the RMP wesbite. I will consider to add a function to get the `schoolId` in the future, a sample input will be `schoolId="45"`
+* `teacher`, string type, **required**. Must be the full name! A sample input will be: `teacher="Yinong Chen"`
 
 Use following code to check specific professor's rating out of 5.0:
 ```
