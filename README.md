@@ -7,7 +7,7 @@
 * [2019/07/19] - Added a function to get tags of a specific professor from RMP
 * [2019/07/18] - Project Launched
 
-installing the package using the following command:
+install the package using the following command:
 
 ```
 py -m pip install RateMyProfessorPyAPI
