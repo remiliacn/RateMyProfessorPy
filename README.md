@@ -25,21 +25,21 @@ aapi.retrieveRMPInfo()
 ```
 
 Use following code to check specific professor's rating out of 5.0:
-```py
+```
 aapi.getRMPInfo()            #string
 ```
 
 Use following code to check specific professor's tags:
-```py
+```
 aapi.getTags()              #string
 ```
 
 Use following code to check specific professor's hottest tag:
-```py
-aapi..getFirstTag()         #string
+```
+aapi.getFirstTag()         #string
 ```
 
 Use following code to check the percentage that students would take again:
-```py
+```
 aapi.getWouldTakeAgain()   #string
 ```
