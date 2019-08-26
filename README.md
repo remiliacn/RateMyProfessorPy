@@ -37,7 +37,7 @@ aapi.getTags()              #string
 
 Use following code to check specific professor's hottest tag:
 ```py
-aapi..getFirstTag()         #string
+aapi.getFirstTag()         #string
 ```
 
 Use following code to check the percentage that students would take again:
