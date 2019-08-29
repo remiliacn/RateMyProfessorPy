@@ -16,7 +16,7 @@ py -m pip install RateMyProfessorPyAPI
 
 if update is needed, use following code:
 ```
-pip -m pip install RateMyProfessorPyAPI --upgrade
+py -m pip install RateMyProfessorPyAPI --upgrade
 ```
 
 Use following code to start the api in python:
