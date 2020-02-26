@@ -8,7 +8,7 @@ headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
 }
 
-INFO_NOT_AVAILABLE = "信息暂不可用"
+INFO_NOT_AVAILABLE = "Info currently not available"
 
 teacherList = []
 tagFeedBackList = []
@@ -16,6 +16,8 @@ ratingList = []
 takeAgainList = []
 
 class RateMyProfAPI:
+
+    #school id 45 = Arizona State University, the ID is initialized to 45 if not set upon usage.
     def __init__(self, schoolId=45, teacher="staff"):
         global teacherList
         if teacher != "staff":
@@ -44,7 +46,7 @@ class RateMyProfAPI:
         """
 
         global tagFeedBackList, ratingList, takeAgainList
-        #如果输入是staff
+        #If professor showed as "staff"
         if self.teacherName == "":
             self.rating = INFO_NOT_AVAILABLE
             self.takeAgain = INFO_NOT_AVAILABLE
@@ -57,6 +59,7 @@ class RateMyProfAPI:
             return
 
         if self.index == -1:
+            #making request to the RMP page
             url = "https://www.ratemyprofessors.com/search.jsp?queryoption=HEADER&" \
                   "queryBy=teacherName&schoolName=Arizona+State+University&schoolID=%s&query=" % self.schoolId + self.teacherName
 
