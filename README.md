@@ -3,6 +3,7 @@
 
 *RateMyProfessor API for py(no auth required)*
 
+* [2020/07/05] - Update ceased, new update will be implemented in [ASU Class Search](https://github.com/remiliacn/ASU-Class-Search)
 * [2019/07/25] - Optimize code, fix some rare bugs.
 * [2019/07/20] - Added a function to allow users to specify ```schoolId```, if ```schoolId``` is not specified, ASU will be the default school for the search result.
 * [2019/07/19] - Added a function to get tags of a specific professor from RMP
